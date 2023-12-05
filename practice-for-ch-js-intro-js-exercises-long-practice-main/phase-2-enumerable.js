@@ -4,7 +4,7 @@ Array.prototype.myEach = function(callback){
 // console.log([1,2,3].myEach(el => {
 //     return (el * 2)
 // }))
-
+// 
 Array.prototype.myMap = function(callback){
     let arr= []
     this.myEach(el => {
